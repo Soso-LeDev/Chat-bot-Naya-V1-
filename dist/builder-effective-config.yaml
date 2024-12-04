@@ -1,0 +1,13 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.chatbot.app
+productName: ChatBotApp
+win:
+  target: nsis
+mac:
+  target: dmg
+linux:
+  target: AppImage
+files: []
+electronVersion: 33.2.1
